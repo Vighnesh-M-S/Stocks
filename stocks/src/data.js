@@ -1,22 +1,22 @@
 const data={
     exchanges: [
         {
-            name: 'TATA',
+            name: "TATA",
             index: 841.42,
             change: 1.54 
         },
         {
-            name: 'Reliance',
+            name: "Reliance",
             index: 841.42,
             change: 1.54 
         },
         {
-            name: 'Maruthi',
+            name: "Maruthi",
             index: 841.42,
             change: 1.54 
         },
         {
-            name: 'Jio',
+            name: "Jio",
             index: 841.42,
             change: 1.54 
         },
@@ -41,6 +41,5 @@ const data={
                 
             
 
-        }
-    ]
-}
+        }    ]
+};
