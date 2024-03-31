@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Routes, Route } from "react-router-dom";
 
 import data from "./data";
 
@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <Routes>
         <Route
           exact
           path="/"
@@ -46,7 +46,7 @@ function App() {
           path="/stocks/:ticker"
           render={(props) => <StockView {...props} stocks={stocks} />}
         />
-      </Router>
+      </Routes>
     </div>
   );
 }

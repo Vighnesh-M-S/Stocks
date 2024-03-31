@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import { useParams, Route, useRouteMatch } from "react-router-dom";
+import { useParams, Route, useMatch } from "react-router-dom";
 import { ConditionallyRender } from "react-util-kit";
 
 import Header from "../../components/Header/Header";
@@ -30,7 +30,7 @@ const initialObject = {
 };
 
 const StockView = ({ stocks }) => {
-  const match = useRouteMatch();
+  const match = useMatch();
   const { ticker } = useParams();
   const [stock, setStock] = useState(initialObject);
 

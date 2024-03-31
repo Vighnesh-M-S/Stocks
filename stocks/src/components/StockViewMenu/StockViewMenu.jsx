@@ -1,6 +1,7 @@
 import React from "react";
 import classnames from "classnames";
-import { Link, useRouteMatch, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { useMatch } from 'react-router-dom';
 
 import { ReactComponent as CoinsIcon } from "../../assets/icons/coins.svg";
 import { ReactComponent as FlaskIcon } from "../../assets/icons/flask.svg";
@@ -8,7 +9,7 @@ import { ReactComponent as FlaskIcon } from "../../assets/icons/flask.svg";
 import styles from "./StockViewMenu.module.css";
 
 const StockViewMenu = () => {
-  const match = useRouteMatch();
+  const match = useMatch();
   const location = useLocation();
 
   const urlElements = location.pathname.split("/");
