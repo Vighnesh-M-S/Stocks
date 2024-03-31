@@ -1,6 +1,6 @@
 # tradingApp
 
-## Introduction
+## ⛩ Introduction
 
 EasyCall is a web app for meetings, chats and collaborate at one place. It is built using React for frontend, Express , Sockets server and Twilio for handling APIs and communication, and Firestore for database.
 
