@@ -19,3 +19,25 @@ git clone https://github.com/apoorvdwi/EasyCall.git
 cd EasyCall
 npm run dev:install
 ```
+
+Once you run the Commands and get environment variables and everything fine, we are all set to run the app ✔️
+
+On the root level run the following command:
+
+```sh
+npm run dev
+```
+
+To lint the code files, run the following command on root level:
+
+```sh
+npm run lint
+```
+
+## 🥁 Features
+
+- EasyCall provides social login through Google and Github.
+- User can create and join meetings.
+- The project is easily scalable to 10 participants but for now the participant limit has been capped at 2 to prevent misuse and keep api costs in limit.
+- Within the meeting, there are several functionalities provided like screen sharing, chat window for participants and whiteboard.
+- The whiteboard is powered by excalidraw, which provides a lot of functionalities for collaboration.
