@@ -18,6 +18,7 @@ We will first start with setting up the Local Project Environment:
 git clone https://github.com/Vighnesh-M-S/Stocks.git
 cd Stocks
 npm start
+'''
 
 
 ## 🥁 Features
@@ -28,3 +29,4 @@ npm start
 -User-friendly Interface: Intuitive and responsive design for seamless navigation and data visualization.
 -Portfolio Management: Allows users to create and manage personalized stock portfolios for tracking investments.
 -Customization Options: Flexible settings for adjusting dividend yield, investment horizon, and portfolio allocation.
+```
