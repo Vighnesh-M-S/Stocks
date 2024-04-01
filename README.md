@@ -17,6 +17,17 @@ We will first start with setting up the Local Project Environment:
 ```sh
 git clone https://github.com/Vighnesh-M-S/Stocks.git
 cd Stocks
+```
+
+```sh
+# Download required dependencies
+npm install react-router-dom@5.1.2 --save
+npm install classnames
+npm install react-util-kit
+```
+
+```sh
+# start react app
 npm start
 ```
 
