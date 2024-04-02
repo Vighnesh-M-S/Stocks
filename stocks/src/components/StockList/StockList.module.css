@@ -54,12 +54,17 @@
 }
 
 .listItemTicker,
-.tickerHeader,
+
 .listItemBid,
 .bidHeader,
 .listItemAsk,
 .askHeader {
   width: 100px;
+}
+.listItemTicker,
+.tickerHeader{
+  width: 150px;
+
 }
 
 .dpspentHeader,

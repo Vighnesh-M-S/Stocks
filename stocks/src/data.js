@@ -23,8 +23,8 @@ const data = {
     ],
     stocks: [
       {
-        name: "Veidekke",
-        ticker: "VEI",
+        name: "Jsw Steel Limited",
+        ticker: "JSWSTEEL",
         bid: 128.5,
         ask: 129.0,
         sector: "Industry",
@@ -57,14 +57,14 @@ const data = {
             description:
               "This is the description. It is usually a lot longer than the title and contains information about the research that has been done",
             link: "https://google.com",
-            author: { name: "Jake", authorId: "author123" },
+            author: { name: "Vighnesh", authorId: "vig21" },
             id: 1,
           },
         ],
       },
       {
-        name: "Aker",
-        ticker: "AKER",
+        name: "Tata Steel Limited",
+        ticker: "TATASTEEL",
         bid: 128.5,
         ask: 129.0,
         sector: "Industry",
@@ -86,7 +86,7 @@ const data = {
             description:
               "This is the description. It is usually a lot longer than the title and contains information about the research that has been done",
             link: "https://google.com",
-            author: { name: "Jake", authorId: "author123" },
+            author: { name: "Vighnesh", authorId: "vig21" },
             id: 1,
           },
           {
@@ -94,14 +94,14 @@ const data = {
             description:
               "This is the description. It is usually a lot longer than the title and contains information about the research that has been done",
             link: "https://google.com",
-            author: { name: "Jake", authorId: "author123" },
+            author: { name: "Vighnesh", authorId: "vig21" },
             id: 2,
           },
         ],
       },
       {
-        name: "Yara",
-        ticker: "YARA",
+        name: "Adani Ports & Special Economic Zone Limited",
+        ticker: "ADANIPORTS",
         bid: 128.5,
         ask: 129.0,
         sector: "Industry",
@@ -123,14 +123,14 @@ const data = {
             description:
               "This is the description. It is usually a lot longer than the title and contains information about the research that has been done",
             link: "https://google.com",
-            author: { name: "Jake", authorId: "author123" },
+            author: { name: "Vighnesh", authorId: "vig21" },
             id: 1,
           },
         ],
       },
       {
-        name: "Leroy",
-        ticker: "LSG",
+        name: "Hdfc Bank Limited",
+        ticker: "HDFCBANK",
         bid: 128.5,
         ask: 129.0,
         sector: "Industry",
@@ -152,14 +152,14 @@ const data = {
             description:
               "This is the description. It is usually a lot longer than the title and contains information about the research that has been done",
             link: "https://google.com",
-            author: { name: "Jake", authorId: "author123" },
+            author: { name: "Vighnesh", authorId: "vig21" },
             id: 1,
           },
         ],
       },
       {
-        name: "DNO ASA",
-        ticker: "DNO",
+        name: "Reliance Industries Limited",
+        ticker: "RELIANCE",
         bid: 128.5,
         ask: 129.0,
         sector: "Industry",
@@ -181,7 +181,7 @@ const data = {
             description:
               "This is the description. It is usually a lot longer than the title and contains information about the research that has been done",
             link: "https://google.com",
-            author: { name: "Jake", authorId: "author123" },
+            author: { name: "Vighnesh", authorId: "vig21" },
             id: 1,
           },
         ],
