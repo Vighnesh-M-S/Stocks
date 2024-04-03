@@ -57,7 +57,7 @@ const StockList = ({ stocks, setStocks }) => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <h1 className={styles.heading}>Oslo Exchange</h1>
+        <h1 className={styles.heading}>BSE</h1>
         <Select
           options={getOptions()}
           onChange={onSelectChange}

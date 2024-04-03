@@ -1,12 +1,12 @@
 const data = {
     exchanges: [
       {
-        name: "OSEBX",
+        name: "NSE",
         index: 841.42,
         change: 1.54,
       },
       {
-        name: "Frankfurt DAX",
+        name: "BSE",
         index: 841.42,
         change: 1.54,
       },

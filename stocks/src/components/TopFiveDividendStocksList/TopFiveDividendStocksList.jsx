@@ -8,7 +8,7 @@ const TopFiveDividendStocksList = (props) => {
       return (
         <li className={styles.listItem} key={stock.ticker}>
           <div>{stock.ticker}</div>
-          <div>{stock.amount} NOK</div>
+          <div>{stock.amount} Rs</div>
         </li>
       );
     });

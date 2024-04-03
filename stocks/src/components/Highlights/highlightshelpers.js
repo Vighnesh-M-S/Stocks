@@ -49,7 +49,7 @@ export const determineRanking = (stock, stocks) => {
     {
       type: "ranking",
       text: `Ranked ${result} stock in dividend yield per
-1000 NOK spent.`,
+1000 Rs spent.`,
     },
   ];
 };
